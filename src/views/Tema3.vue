@@ -1,0 +1,44 @@
+<template lang="pug">
+.curso-main-container.pb-3
+  BannerInterno
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    .titulo-principal
+      .titulo-principal__numero
+        span 3
+      h1  Objetivos de comunicación asociados al contenido digital
+    .row.mb-5
+      .col-lg-3
+        figure
+          img(src='@/assets/curso/t3-i1.svg')
+      .col-lg-9
+        p.mb-4  Es importante comprender que toda acción tiene una reacción. Por este motivo, cada vez que publiquemos un contenido en nuestras redes sociales, este ocasionará ciertas reacciones.
+        p.mb-4  Por eso, antes de producir la pieza digital, debemos 
+          span.text-bold proyectar 
+          | y, para hacerlo, es vital definir los objetivos que se desean alcanzar.
+    p.mb-4 En el siguiente video, conoceremos qué son los objetivos de comunicación asociados al contenido digital, y analizaremos un ejemplo.
+
+    figure
+    .video.mb-5
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/oH7oLgBnkgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    //-- figcaption Video: Leyenda del video
+    .row
+      .col-lg-10
+        .cajon.color-primario.p-4.mb-4
+          p Al finalizar el video, analiza: 
+            span.text-bold ¿qué información crees que debe llevar ese post que compartirá la empresa en sus redes sociales?
+
+
+
+
+</template>
+
+<script>
+export default {
+  name: 'Tema3',
+  data: () => ({
+    // variables de vue
+  }),
+}
+</script>
+
+<style lang="sass" scoped></style>
