@@ -7,101 +7,113 @@
       .titulo-principal__numero
         span 2
       h1 Tipos de contenido digital
-    figure.mb-5
-      img(src='@/assets/curso/t2-i1.svg', alt='representación organizada de los tipos de contenido digital')
-    p.text-bold.mb-5  Los prototipos de formatos con contenidos digitales que las personas o las empresas comparten, se pueden clasificar de la siguiente manera:
-    
+
+    .row.justify-content-center
+      .col-10
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/img-2.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            h3.mb-0 Los prototipos de formatos con contenidos digitales que las personas o las empresas comparten se pueden clasificar de la siguiente manera:
+
     #t_2_1.titulo-segundo
       .h4 2.1 Básicos
     
     p.mb-4 Son aquellos que cualquier persona con acceso a un dispositivo móvil puede crear y publicar en sus redes sociales, estos son:
-    br
-    .row.justify-content-center.mb-5
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i2.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 Fotografía digital
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i3.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 Video grabado o video en vivo
-    .row.justify-content-center
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i4.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 Audio
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i5.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 Texto
-    .separador
+    
 
-    br
-    br
+    SlyderA.mb-5(data-aos="fade-up")
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i2.jpg', alt='Imágen mostrando Fotografía digital')
+          figcaption Fotografía digital
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i1.jpg', alt='Imágen mostrando Video grabado o video en vivo')
+          figcaption Video grabado o video en vivo
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i12.jpg', alt='Imágen mostrando Audio')
+          figcaption Audio
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i14.jpg', alt='Imágen mostrando Texto')
+          figcaption Texto
+    
+    Separador
 
-    #t_2_2.titulo-segundo
+    #t_2_2.titulo-segundo(data-aos="fade-up")
       .h4 2.2  Intermedios
 
-    p.mb-3 El contenido digital intermedio es aquel que requiere el uso de herramientas de edición para producirlas e incluso pueden ser creadas desde el dispositivo móvil. La mayoría se desarrollan con un objetivo de comunicación y son contenidos planeados.
-    p.mb-4 Algunas de las más conocidas son:
-    br
-    .row.mb-5
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i6.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 Infografía
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i7.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 Póster
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i8.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 Presentaciones
-    .row.justify-content-center
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i9.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 Video promocional
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i10.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 Podcast
-      
-      .separador
-    br
-    br
-    #t_2_3.titulo-segundo
-      .h4 2.3 Avanzados
-    p.mb-4  Este tipo de contenidos digitales requieren de profesionales, en el área, para producirlos.
-    p.mb-4  En esta categoría podemos encontrar:
-    br
-    .row.mb-5
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i11.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 Videojuegos
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i12.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 Videos seriados
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i13.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 e-book interactivos
-    .row.justify-content-center.mb-5
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i14.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 Páginas Web 
-      .col-lg-4
-        figure.mb-4
-          img(src='@/assets/curso/t2-i15.svg', alt='representación organizada de los tipos de contenido digital')
-        .h4 Seminarios Web o webinar
-      
-    .cajon.color-primario.p-4.mb-4
-      p.mb-3 Existe una larga lista de modelos u opciones de contenidos digitales que podemos crear, incluyendo combinaciones entre ellos; un ejemplo, muy común, se puede observar en las páginas de venta de productos, donde podemos encontrar un carrusel de imágenes (más de 2 imágenes en la misma publicación) y en algunos casos, acompañado de un video explicativo del producto. 
-      p.text-bold Pero, la decisión de qué tipo de contenido digital debo crear para mi emprendimiento, dependerá de la planeación del contenido, tema que aprenderemos a continuación.
+    p.mb-4(data-aos="fade-up") El contenido digital intermedio es aquel que requiere el uso de herramientas de edición para producirlas e incluso pueden ser creadas desde el dispositivo móvil. La mayoría se desarrollan con un objetivo de comunicación y son contenidos planeados.
+      br
+      br
+      | Algunas de las más conocidas son:
+
+    SlyderA.mb-5(data-aos="fade-up")
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i13.jpg', alt='Imágen mostrando un ejemplo de Fotografía digital')
+          figcaption Infografía (Ejemplo)
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i11.jpg', alt='Imágen mostrando un Póster')
+          figcaption Póster
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i10.jpg', alt='Imágen mostrando una Presentacion')
+          figcaption Presentaciones
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i9.jpg', alt='Imágen mostrando Video promocional')
+          figcaption Video promocional
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i3.jpg', alt='Imágen mostrando Podcast')
+          figcaption Podcast
+
+    Separador
+
+    #t_2_3.titulo-segundo(data-aos="fade-up")
+      h4 2.3 Avanzados
+
+    p.mb-4(data-aos="fade-up") Este tipo de contenidos digitales requieren de profesionales, en el área, para producirlos.
+      br
+      br
+      | En esta categoría podemos encontrar:
+
+    SlyderA.mb-5(data-aos="fade-up")
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i4.jpg', alt='Imágen mostrando Páginas Web')
+          figcaption Páginas Web 
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i6.jpg', alt='Imágen mostrando Videojuegos')
+          figcaption Videojuegos
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i8.jpg', alt='Imágen mostrando Videos seriados')
+          figcaption Videos seriados
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i5.jpg', alt='Imágen mostrando e-book interactivos')
+          figcaption e-book interactivos
+      .slider-ejemplos
+        figure
+          img(src='@/assets/curso/t1-i7.jpg', alt='Imágen mostrando Seminarios Web o webinar')
+          figcaption Seminarios Web o webinar
+
+    .cajon.color-primario.p-4
+      .row.align-items-center.justify-content-center
+        .col-6.col-md-2.mb-3.mb-md-0
+          img(src='@/assets/curso/youtube.svg', alt='Icono de Youtube')
+        .col-md
+          p.mb-3 Existe una larga lista de modelos u opciones de contenidos digitales que podemos crear, incluyendo combinaciones entre ellos; un ejemplo, muy común, se puede observar en las páginas de venta de productos, donde podemos encontrar un carrusel de imágenes (más de 2 imágenes en la misma publicación) y en algunos casos, acompañado de un video explicativo del producto. 
+            br
+            br
+            b Pero, la decisión de qué tipo de contenido digital debo crear para mi emprendimiento, dependerá de la planeación del contenido, tema que aprenderemos a continuación.
 
 
 </template>
@@ -115,4 +127,13 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+.slider-ejemplos
+  figcaption
+    padding: 15px
+    font-size: $h3-font-size
+
+::v-deep
+  .slyder-a__bullets
+    bottom: 80px
+</style>

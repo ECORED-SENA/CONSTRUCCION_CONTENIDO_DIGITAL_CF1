@@ -18,17 +18,14 @@
     p.mb-4 En el siguiente video, conoceremos qué son los objetivos de comunicación asociados al contenido digital, y analizaremos un ejemplo.
 
     figure
-    .video.mb-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/oH7oLgBnkgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    //-- figcaption Video: Leyenda del video
-    .row
+      .video.mb-5
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/oH7oLgBnkgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .row.justify-content-center
       .col-lg-10
         .cajon.color-primario.p-4.mb-4
-          p Al finalizar el video, analiza: 
-            span.text-bold ¿qué información crees que debe llevar ese post que compartirá la empresa en sus redes sociales?
-
-
-
+          p.mb-0 Al finalizar el video, analiza: 
+            b ¿qué información crees que debe llevar ese post que compartirá la empresa en sus redes sociales?
 
 </template>
 

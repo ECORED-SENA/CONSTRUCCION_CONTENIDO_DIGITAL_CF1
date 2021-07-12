@@ -28,3 +28,36 @@ a
   display: none !important
 .banner-interno__titulo__icono i
   color: #2f788d !important
+
+
+.tabs-a__tab__text
+  line-height: 1.2em
+
+
+.tabla-blur
+  display: flex
+  align-items: center
+  cursor: pointer
+  &__img
+    width: 50%
+
+  &__text
+    padding: 10px
+    width: 50%
+    filter: blur(10px)
+    // opacity: 0
+    transition: filter 0.3s ease-in-out, opacity 0.1s ease-in-out
+    *
+      color: $color-secundario !important
+      transition: color 0.3s ease-in-out
+  &:hover
+    .tabla-blur__text
+      // opacity: 1
+      filter: blur(0px)
+      *
+        color: $color-sistema-texto !important
+  &--reverse
+    flex-direction: row-reverse
+    .tabla-blur__text
+      text-align: right
+    
