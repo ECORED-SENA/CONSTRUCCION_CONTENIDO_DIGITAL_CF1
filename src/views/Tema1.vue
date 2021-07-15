@@ -28,7 +28,6 @@
           p.mb-0 Al finalizar el video, analiza: 
             b ¿cuál es el contenido digital que más utilizas?
 
-  
 </template>
 
 <script>

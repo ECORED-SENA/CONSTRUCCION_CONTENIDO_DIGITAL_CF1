@@ -16,7 +16,7 @@
           b la planeación 
           | y, en el siguiente video, comprenderemos porqué es importante y cómo utilizar una herramienta indispensable en ese proceso: 
           b el calendario editorial. 
-    
+
     figure(data-aos="fade-up")
       .video.mb-5
         iframe(width="560" height="315" src="https://www.youtube.com/embed/p7ZwZhSjqTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -30,7 +30,7 @@
             p
               b Anexo. 
               | Formato calendario de contenido.
-    
+
     h3.titulo-tercero(data-aos="fade-up") ¿Por qué nunca debe faltar un calendario?
 
     TabsA.color-acento-botones.mb-5(data-aos="fade-up")
@@ -79,11 +79,11 @@
         .cajon.color-primario.p-4.mb-4
           p.mb-0 Antes de ir al formato de calendario de contenido, 
             b realizaremos una planificación y una estrategia.
-    
+
     p.mb-4(data-aos="fade-up")
       b Es importante 
       | tener presente que, para crear una estrategia de distribución sólida, se necesita una segura comprensión de los objetivos de contenido. Las siguientes preguntas nos ayudarán a guiarnos en esta toma de decisiones:
-    
+
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-10
         .tarjeta-avatar-b.align-items-center
@@ -106,14 +106,14 @@
                 li.mb-0
                   i.fas.fa-check
                   | ¿Qué canales utilizarás? Vas a querer apuntar a los canales más efectivos y relevantes para llegar a las personas. Una estrategia de distribución sólida, generalmente incluye una combinación de medios.  
-    
+
     .row.justify-content-center
       .col-lg-8
         .cajon.color-primario.p-4
           p.mb-0 Una vez que se tiene 
             b la comprensión básica de los objetivos, 
             | se puede desarrollar el resto de la estrategia.
-    
+
 </template>
 
 <script>
@@ -125,8 +125,14 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-.h85{height: 85px}
-.color-soft-blue{background-color: #F3F9FF}
-.customCards .tarjeta-avatar-b > div{padding-left: 6%}
+<style scoped>
+.h85 {
+  height: 85px;
+}
+.color-soft-blue {
+  background-color: #f3f9ff;
+}
+.customCards .tarjeta-avatar-b > div {
+  padding-left: 6%;
+}
 </style>
