@@ -20,21 +20,19 @@
     .row.align-items-center
 
       .col.d-none.d-lg-flex.flex-column.justify-content-center.align-items-end
-        .position-relative.mb-4.w-100(data-aos="fade-right" @mouseover="mostrarIndicador = false")
-          .indicador--hover(v-if="mostrarIndicador")
-          .intro-btn.intro-btn--reverse
-            .intro-btn__icon
-              img(src='@/assets/curso/intro-icon-1.svg')
-            .intro-btn__text
-              span.text-bold ¿Qué es el mundo del contenido digital?
+        .intro-btn.intro-btn--reverse.mb-4(data-aos="fade-right")
+          .intro-btn__icon
+            img(src='@/assets/curso/intro-icon-1.svg')
+          .intro-btn__text
+            span.text-bold ¿Qué es el mundo del contenido digital?
 
-        .intro-btn.intro-btn--reverse.mb-4(data-aos="fade-right" data-aos-delay="200" @mouseover="mostrarIndicador = false")
+        .intro-btn.intro-btn--reverse.mb-4(data-aos="fade-right" data-aos-delay="150")
           .intro-btn__icon
             img(src='@/assets/curso/intro-icon-2.svg')
           .intro-btn__text
             span.text-bold Los tipos de contenido digital.
 
-        .intro-btn.intro-btn--reverse(data-aos="fade-right" data-aos-delay="400" @mouseover="mostrarIndicador = false")
+        .intro-btn.intro-btn--reverse(data-aos="fade-right" data-aos-delay="300")
           .intro-btn__icon
             img(src='@/assets/curso/intro-icon-3.svg')
           .intro-btn__text
@@ -46,34 +44,32 @@
     
       .col-sm.col-md.d-flex.flex-column.justify-content-center
 
-        .position-relative.mb-4.d-lg-none(data-aos="fade-left" @mouseover="mostrarIndicador = false")
-          .indicador--hover(v-if="mostrarIndicador")
-          .intro-btn
-            .intro-btn__icon
-              img(src='@/assets/curso/intro-icon-1.svg')
-            .intro-btn__text
-              span.text-bold ¿Qué es el mundo del contenido digital?
+        .intro-btn.mb-4.d-lg-none(data-aos="fade-left")
+          .intro-btn__icon
+            img(src='@/assets/curso/intro-icon-1.svg')
+          .intro-btn__text
+            span.text-bold ¿Qué es el mundo del contenido digital?
 
-        .intro-btn.mb-4.d-lg-none(data-aos="fade-left" data-aos-delay="200" @mouseover="mostrarIndicador = false")
+        .intro-btn.mb-4.d-lg-none(data-aos="fade-left" data-aos-delay="150")
           .intro-btn__icon
             img(src='@/assets/curso/intro-icon-2.svg')
           .intro-btn__text
             span.text-bold Los tipos de contenido digital.
 
-        .intro-btn.mb-4.d-lg-none(data-aos="fade-left" data-aos-delay="400" @mouseover="mostrarIndicador = false")
+        .intro-btn.mb-4.d-lg-none(data-aos="fade-left" data-aos-delay="300")
           .intro-btn__icon
             img(src='@/assets/curso/intro-icon-3.svg')
           .intro-btn__text
             span.text-bold Los conceptos y características básicas necesarias.
 
 
-        .intro-btn.mb-4(data-aos="fade-left" data-aos-delay="600" @mouseover="mostrarIndicador = false")
+        .intro-btn.mb-4(data-aos="fade-left" data-aos-delay="450")
           .intro-btn__icon
             img(src='@/assets/curso/intro-icon-4.svg')
           .intro-btn__text
             span.text-bold ¿Qué son los objetivos de comunicación?
 
-        .intro-btn(data-aos="fade-left" data-aos-delay="800" @mouseover="mostrarIndicador = false")
+        .intro-btn(data-aos="fade-left" data-aos-delay="600")
           .intro-btn__icon
             img(src='@/assets/curso/intro-icon-5.svg')
           .intro-btn__text
