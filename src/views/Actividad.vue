@@ -11,11 +11,14 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica 1
-        p.mb-4 Cras tempus tortor et nisi tincidunt feugiat. Integer lacus ante, venenatis nec fringilla quis, dapibus ut dui. Fusce imperdiet velit a leo sagittis, id scelerisque massa placerat. Duis at dui sed enim euismod pulvinar quis ac ante. Phasellus condimentum sapien nisi, ac facilisis purus tristique ac. Quisque magna est, luctus vitae elit ut, convallis venenatis justo. Nunc pretium elit a nisi tempus sagittis.
+        p.mb-4 La siguiente actividad tiene como objetivo, recordarnos las condiciones de las licencias Creative Commons. 
+          br
+          br
+          | ¿Por qué es importante tenerlas presentes siempre? Porque al tener claridad sobre cada una de ellas, podemos conocer las condiciones de uso bajo las que se encuentran; por ejemplo: la música, la imagen y el video que deseamos utilizar para nuestras creaciones.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Descripción de la actividad didáctica.
+              p.fw-bold.mb-0 Condiciones de las licencias Creative Commons
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
