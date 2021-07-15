@@ -17,9 +17,10 @@
 
     h4.mb-5 En este componente formativo aprenderemos:
     
-    .row.align-items-center(data-aos="fade-up")
-      .col.d-none.d-md-flex.flex-column.justify-content-center.align-items-end
-        .position-relative.mb-4(@mouseover="mostrarIndicador = false")
+    .row.align-items-center
+
+      .col.d-none.d-lg-flex.flex-column.justify-content-center.align-items-end
+        .position-relative.mb-4.w-100(data-aos="fade-right" @mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           .intro-btn.intro-btn--reverse
             .intro-btn__icon
@@ -27,13 +28,13 @@
             .intro-btn__text
               span.text-bold ¿Qué es el mundo del contenido digital?
 
-        .intro-btn.intro-btn--reverse.mb-4(@mouseover="mostrarIndicador = false")
+        .intro-btn.intro-btn--reverse.mb-4(data-aos="fade-right" data-aos-delay="200" @mouseover="mostrarIndicador = false")
           .intro-btn__icon
             img(src='@/assets/curso/intro-icon-2.svg')
           .intro-btn__text
             span.text-bold Los tipos de contenido digital.
 
-        .intro-btn.intro-btn--reverse(@mouseover="mostrarIndicador = false")
+        .intro-btn.intro-btn--reverse(data-aos="fade-right" data-aos-delay="400" @mouseover="mostrarIndicador = false")
           .intro-btn__icon
             img(src='@/assets/curso/intro-icon-3.svg')
           .intro-btn__text
@@ -44,7 +45,8 @@
           img(src='@/assets/curso/intro-img.svg', alt='representación ecosistema digital')
     
       .col-sm.col-md.d-flex.flex-column.justify-content-center
-        .position-relative.mb-4.d-md-none(@mouseover="mostrarIndicador = false")
+
+        .position-relative.mb-4.d-lg-none(data-aos="fade-left" @mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           .intro-btn
             .intro-btn__icon
@@ -52,27 +54,26 @@
             .intro-btn__text
               span.text-bold ¿Qué es el mundo del contenido digital?
 
-        .intro-btn.mb-4.d-md-none(@mouseover="mostrarIndicador = false")
+        .intro-btn.mb-4.d-lg-none(data-aos="fade-left" data-aos-delay="200" @mouseover="mostrarIndicador = false")
           .intro-btn__icon
             img(src='@/assets/curso/intro-icon-2.svg')
           .intro-btn__text
             span.text-bold Los tipos de contenido digital.
 
-        .intro-btn.mb-4.d-md-none(@mouseover="mostrarIndicador = false")
+        .intro-btn.mb-4.d-lg-none(data-aos="fade-left" data-aos-delay="400" @mouseover="mostrarIndicador = false")
           .intro-btn__icon
             img(src='@/assets/curso/intro-icon-3.svg')
           .intro-btn__text
             span.text-bold Los conceptos y características básicas necesarias.
 
 
-        
-        .intro-btn.mb-4(@mouseover="mostrarIndicador = false")
+        .intro-btn.mb-4(data-aos="fade-left" data-aos-delay="600" @mouseover="mostrarIndicador = false")
           .intro-btn__icon
             img(src='@/assets/curso/intro-icon-4.svg')
           .intro-btn__text
             span.text-bold ¿Qué son los objetivos de comunicación?
 
-        .intro-btn(@mouseover="mostrarIndicador = false")
+        .intro-btn(data-aos="fade-left" data-aos-delay="800" @mouseover="mostrarIndicador = false")
           .intro-btn__icon
             img(src='@/assets/curso/intro-icon-5.svg')
           .intro-btn__text
@@ -95,12 +96,12 @@ export default {
   align-items: center
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2)
   padding: 5px
-  border-radius: 35px
-  width: 70px
+  width: 100%
   overflow: hidden
-  transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out
-  cursor: pointer
   position: relative
+  border-radius: 35px
+  border-top-right-radius: 10px
+  border-bottom-right-radius: 10px
   &__icon
     width: 60px
     padding: 10px
@@ -115,17 +116,11 @@ export default {
       line-height: 1.2em
       display: block
 
-  &:hover
-    width: 300px
-    border-top-right-radius: 10px
-    border-bottom-right-radius: 10px
-
   &--reverse
     flex-direction: row-reverse
-    &:hover
-      border-radius: 35px
-      border-top-left-radius: 10px
-      border-bottom-left-radius: 10px
+    border-radius: 35px
+    border-top-left-radius: 10px
+    border-bottom-left-radius: 10px
 
 .indicador--hover
 </style>
