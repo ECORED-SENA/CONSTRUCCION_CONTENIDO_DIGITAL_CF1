@@ -27,19 +27,19 @@
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i2.jpg', alt='Imágen mostrando Fotografía digital')
-          figcaption Fotografía digital
+          figcaption.h5 Fotografía digital
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i1.jpg', alt='Imágen mostrando Video grabado o video en vivo')
-          figcaption Video grabado o video en vivo
+          figcaption.h5 Video grabado o video en vivo
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i12.jpg', alt='Imágen mostrando Audio')
-          figcaption Audio
+          figcaption.h5 Audio
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i14.jpg', alt='Imágen mostrando Texto')
-          figcaption Texto
+          figcaption.h5 Texto
     
     Separador
 
@@ -128,10 +128,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.slider-ejemplos
-  figcaption
-    padding: 15px
-    font-size: $h3-font-size
 
 ::v-deep
   .slyder-a__bullets
