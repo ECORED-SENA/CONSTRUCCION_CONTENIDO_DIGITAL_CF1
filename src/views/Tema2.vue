@@ -55,23 +55,23 @@
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i13.jpg', alt='Imágen mostrando un ejemplo de Fotografía digital')
-          figcaption Infografía (Ejemplo)
+          figcaption.h5 Infografía (Ejemplo)
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i11.jpg', alt='Imágen mostrando un Póster')
-          figcaption Póster
+          figcaption.h5 Póster
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i10.jpg', alt='Imágen mostrando una Presentacion')
-          figcaption Presentaciones
+          figcaption.h5 Presentaciones
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i9.jpg', alt='Imágen mostrando Video promocional')
-          figcaption Video promocional
+          figcaption.h5 Video promocional
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i3.jpg', alt='Imágen mostrando Podcast')
-          figcaption Podcast
+          figcaption.h5 Podcast
 
     Separador
 
@@ -87,23 +87,23 @@
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i4.jpg', alt='Imágen mostrando Páginas Web')
-          figcaption Páginas Web 
+          figcaption.h5 Páginas Web 
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i6.jpg', alt='Imágen mostrando Videojuegos')
-          figcaption Videojuegos
+          figcaption.h5 Videojuegos
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i8.jpg', alt='Imágen mostrando Videos seriados')
-          figcaption Videos seriados
+          figcaption.h5 Videos seriados
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i5.jpg', alt='Imágen mostrando e-book interactivos')
-          figcaption e-book interactivos
+          figcaption.h5 e-book interactivos
       .slider-ejemplos
         figure
           img(src='@/assets/curso/t1-i7.jpg', alt='Imágen mostrando Seminarios Web o webinar')
-          figcaption Seminarios Web o webinar
+          figcaption.h5 Seminarios Web o webinar
 
     .cajon.color-primario.p-4
       .row.align-items-center.justify-content-center
