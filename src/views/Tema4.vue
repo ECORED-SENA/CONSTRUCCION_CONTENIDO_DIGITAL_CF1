@@ -39,7 +39,7 @@
           .col-6.col-md-2.mb-4.mb-md-0
             img.h85(src='@/assets/curso/t4-i2.svg' alt='Icono bocina')
           .col-md
-            h2 Aportar valor a la audiencia
+            h2 Aporta valor a la audiencia
             p.mb-0 La audiencia sentirá que se le toma en serio y que se está creando para ella. Hablar por hablar en las redes sociales lo convierte en esa famosa cuenta “humo” y, por supuesto, es nada creativa.
 
       .tarjeta.color-primario.p-4(titulo="Proyecta las ideas")
